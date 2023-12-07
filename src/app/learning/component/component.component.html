@@ -1,0 +1,11 @@
+<h1>Life cycle</h1>
+<div id="chart">
+  <apx-chart *ngIf="chartOptions"
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [plotOptions]="chartOptions.plotOptions"
+    [xaxis]="chartOptions.xaxis"
+  ></apx-chart>
+</div>
+<h1>Encapsulation</h1>
+<app-shadow-doom></app-shadow-doom>
